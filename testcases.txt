@@ -1,0 +1,24 @@
+Best Case:
+Array		Target		Input Size		Execution Time
+1		1		1			100 ns
+1...10		5		10			400 ns
+1...1000	500		1000			400 ns
+1...10^4	5000		10^4			200 ns
+1...10^6	500000		10^6			300 ns
+
+Worst Case:
+Array		Target		Input Size		Execution Time
+1		0		1			200 ns
+1..10		1		10			300 ns
+1..1000		1000		1000			500 ns
+1..10000	-6		10000			700 ns
+1..10^6		-11		10^6			1000 ns
+
+Average Case:
+Array		Target		Input Size		Execution Time
+1..5		2		5			500 ns
+1..100		45		100			700 ns
+1..1000		345		1000			1300 ns
+1..10000	3472		10000			2000 ns
+1..10^6		4597		10^6			2600 ns
+
